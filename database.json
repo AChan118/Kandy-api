@@ -145,16 +145,10 @@
       "isStaff": true
     },
     {
-      "email": "jeremy@bakker.com",
-      "fullName": "Jeremy Bakker",
+      "fullName": "Adam Chance",
+      "email": "adamchance118@gmail.com",
       "isStaff": true,
       "id": 7
-    },
-    {
-      "email": "adamchance118@gmail.com",
-      "fullName": "Adam Chance",
-      "isStaff": true,
-      "id": 8
     }
   ],
   "customers": [
@@ -162,19 +156,22 @@
       "id": 1,
       "address": "2802 Zula Locks",
       "phoneNumber": "852-837-9713",
-      "userId": 2
+      "userId": 2,
+      "loyaltyNum": 3456
     },
     {
       "id": 2,
       "address": "56849 Fadel Gateway",
       "phoneNumber": "202-244-7090",
-      "userId": 1
+      "userId": 1,
+      "loyaltyNum": 3696
     },
     {
       "id": 3,
       "address": "7346 Ritchie Road",
       "phoneNumber": "(507) 720-1157",
-      "userId": 3
+      "userId": 3,
+      "loyaltyNum": 3426
     }
   ],
   "employees": [
@@ -198,6 +195,13 @@
       "startDate": "09/15/2012",
       "locationId": 3,
       "userId": 6
+    },
+    {
+      "rate": "69",
+      "startDate": "2022-09-06",
+      "locationId": "1",
+      "userId": 7,
+      "id": 4
     }
   ]
 }
